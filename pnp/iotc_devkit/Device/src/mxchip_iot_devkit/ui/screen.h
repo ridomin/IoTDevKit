@@ -7,6 +7,7 @@ extern "C"
 #endif
 
 void screen_main(void);
+void screen_showInfo(const char* huburi, const char* devicename);
 void screen_echo(const char* text);
 
 #ifdef __cplusplus
